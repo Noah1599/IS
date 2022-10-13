@@ -1,0 +1,140 @@
+body {
+  background-color: #BE8C63;
+  margin: 0;
+  height: 100vw;
+
+}
+.notice{
+  background-color: #8FBDD3;
+  text-align: center;
+  height: 40vw;
+}
+h1{
+  width: 100%;
+  margin: 0 auto 0 auto;
+  font-size: 15vw;
+
+}
+h2{
+  font-size: 7vw;
+}
+hr{
+  border-width: 2vw;
+  border-color: black;
+  border-style: dashed none none none;
+}
+.pressIcon{
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+}
+.underline{
+  text-decoration: underline;
+}
+
+.second-row{
+  background-image: url(https://www.diagonalkroen.dk/media/1064/vejle-ga-gade.jpg?anchor=center&mode=crop&width=1170&upscale=false&rnd=132164898120000000) ;
+  background-size: 100vw;
+  height: 50vw;
+}
+
+.the-flags{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2vw;
+  flex-direction: column;
+  margin: 5vw 5vw 5vw 5vw;
+  /*background-color: white;
+  border: solid 5px black;*/
+  max-width: 100vw;
+  height: auto;
+  padding: 3vw;
+  border-left: solid black;
+
+}
+.flex-grid{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  background-color: #BE8C63;
+  position: fixed;
+  bottom: 0;
+}
+.flag{
+  height: 10vw;
+  width: 18vw;
+  margin-left: auto;
+  object-fit: cover;
+
+}
+.button-row{
+  margin: 5vw 5vw 5vw 5vw;
+  border-top: solid black ;
+}
+
+.full{
+  100%;
+}
+/*@media only screen and (max-width: 12px) {
+ h1 {
+   font-size: 100px;
+ }
+ body {
+   height: 100%;
+ }
+ .notice{
+   height: 500px;
+ }
+
+ hr{
+   border-width: 2vw;
+   border-color: black;
+   border-style: dashed none none none;
+ }
+ .pressIcon{
+   width: 25vw;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   display: block;
+ }
+ .underline{
+   text-decoration: underline;
+ }
+
+ .second-row{
+   background-image: url(https://www.diagonalkroen.dk/media/1064/vejle-ga-gade.jpg?anchor=center&mode=crop&width=1170&upscale=false&rnd=132164898120000000) ;
+   background-size: 100vw;
+   height: 30vw;
+ }
+
+ .the-flags{
+   display: flex;
+   justify-content: flex-end;
+   gap: 2vw;
+   flex-direction: column;
+   background-color: white;
+   margin: 5vw 5vw 5vw 5vw;
+   border: solid 5px black;
+   max-width: 100vw;
+   height: auto;
+   padding: 3vw;
+
+ }
+ .flex-grid{
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   gap: 1rem;
+ }
+ .flag{
+   height: 10vw;
+   width: 18vw;
+   margin-left: auto;
+   object-fit: cover;
+
+ }
+}
+*/
